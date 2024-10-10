@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726761612 "c:/Users/victo/Documents/cv/main.tex" "main.pdf" "main" 1726761613 0
-  "c:/Users/victo/Documents/cv/main.tex" 1726761612 10334 07e80783fc5c8205a8d54047e3b43e3c ""
+["pdflatex"] 1728379480 "c:/Users/victo/Documents/cv/main.tex" "main.pdf" "main" 1728379481 0
+  "c:/Users/victo/Documents/cv/main.tex" 1728379479 10363 447e6f34d40757d8b12afde6f9713a5e ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1666970930 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1666972064 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1666971620 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -41,8 +41,8 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1678959440 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678627558 7883444 6c55cade79cc79ddfe77c3f028659cd2 ""
   "c:/texlive/2022/texmf.cnf" 1666982063 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1726761613 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "main.tex" 1726761612 10334 07e80783fc5c8205a8d54047e3b43e3c ""
+  "main.aux" 1728379481 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "main.tex" 1728379479 10363 447e6f34d40757d8b12afde6f9713a5e ""
   "resume.cls" 1726761559 4775 2031751e641c844a267567d1eaad730a ""
   (generated)
   "main.aux"
