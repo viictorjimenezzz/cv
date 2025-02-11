@@ -1,0 +1,7 @@
+*.fls
+*.aux
+*.log
+*.gz
+*.fdb_latexmk
+
+CV_Victor_Jimenez.pdf

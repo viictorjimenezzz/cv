@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{V\'ictor Jim\'enez Rodr\'iguez} % Your name
+\address{Zurich, Switzerland $\big|$ Barcelona, Spain} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+41) 076 264 58 81 $\big|$ victorjimenezrodriguez00@gmail.com} % Your phone number and email
+
+\begin{document}
+\setlength{\baselineskip}{-0.2em}
+
+\begin{rSection}{Summary}
+    Machine learning engineer with a background in physics and statistics, and a proven track record in 
+    both academic and industrial environments.
+    Currently looking for a research internship position to contribute to exciting projects in machine learning 
+    and computational science.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Experience}
+    {\bf Uthereal} -- ETH AI Center (Zurich) \hfill {\em Since Jan. 2024} 
+    \\ Machine learning engineer \\
+    \begin{itemize}
+        \item Involved in the implementation of a full-scale information retrieval system for RAG. \
+        Worked on OCR, document feature engineering, entity recognition, knowledge graph generation,
+        sparse and dense embedding search, and explainability.
+        \item Built end-to-end ML experimental framework for RAG pipeline evaluation and benchmarking inspired in Pytorch Lightning,
+        including automatic logging with Weave (Weights \& Biases).
+    \end{itemize}
+
+    {\bf Institute for Machine Learning} -- ETH (Zurich) \hfill {\em Oct. 2023 -- Sep. 2024} 
+    \\ Research traineeship -- Prof. Dr. Joachim M. Buhmann \\
+    \begin{itemize}
+        \item Master's thesis with Honors. Candidate for the ETH Medal in CS. -- \textit{Improved robustness of deep learning models through posterior agreement based model selection}.
+        \item Manuscript derived from the thesis currently under submission for publication.
+    \end{itemize}
+
+    {\bf Physics of Energy Conversion and Storage} -- TUM (Munich) \hfill {\em Feb. 2022 -- Oct. 2022} 
+    \\ Research traineeship -- Prof. Dr. Aliaksandr Bandarenka \\
+    \begin{itemize}
+        \item Bachelor's thesis with Honors -- \textit{EIS characterization of lithiated TiO2-coated LICGC electrolytes for the stabilization of the SEI in all-solid-state lithium batteries}.
+        \item Contributed to \textit{Characterization of the Lithium/Solid Electrolyte Interface in the Presence of Nanometer-thin TiOx Layers for All-Solid-State Batteries -- A. Bandarenka, et al. ChemSusChem 2024, e202401026.}
+    \end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Master's degree in Statistics and Operations Research} \hfill {\em 2022 -- 2024} 
+\\ Facultat de Matem\`atiques i Estad\'istica -- UPC (Barcelona) \vspace{0.5em} \\
+Completed track in statistical inference, optimization theory and machine learning. [9.05/10]
+
+% \begin{itemize}
+%     \item Honors in Machine Learning, Bayesian Analysis and Programming.
+%     \item Completed track in statistical learning, optimization theory and statistical inference.
+%     \end{itemize}
+
+{\bf Bachelor's degree in Engineering Physics} \hfill {\em 2018 -- 2022} 
+\\ ETSETB -- UPC (Barcelona) \vspace{0.5em} \\ 
+Elective coursework included computational electromagnetism, advanced materials, 
+numerical simulation of condensed matter, quantum computing and optical technologies, photonics, and 
+computational biophysics. Engineering coursework included control theory, signal processing, and antennas.\\
+% \begin{itemize}
+% \item Elective coursework included computational electromagnetism, advanced materials, 
+% numerical simulation of condensed matter, quantum computing and optical technologies, photonics and 
+% computational biophysics.
+% \item Engineering coursework included control theory, signal processing, 
+% antennas and transmission lines.
+% \end{itemize}
+% \\ Elective coursework included computational electromagnetism, advanced materials, 
+% numerical simulation of condensed matter, quantum computing and optical technologies, photonics and 
+% computational biophysics. \\
+% Engineering coursework included control theory, signal processing, 
+% antennas and transmission lines.  \\
+
+{\bf Top 0.1\% students} -- PAU official exams \hfill {\em 2018} 
+% \\ Generalitat de Catalunya \\
+
+{\bf Scientific-Technological Baccalaureate with Honors} \hfill {\em 2016 -- 2018} 
+\\ Maristes Sants-Les Corts, Barcelona \\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Technical Skills}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Language \ & C, C++ \\
+% Software  \ & MS Office, Latex \\
+% \end{tabular}
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Languages}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Catalan, Spanish \ & Native \\
+    English  \ & Proficient \\
+    German  \ & Intermediate \\
+    \end{tabular}
+\end{rSection}
+
+\begin{rSection}{Programming}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Python \ & Machine learning, data analysis, computational physics. \vspace{-0.3em} \\
+            & \textit{Pytorch, Pytorch Lightning, Weights \& Biases, ...} \\
+
+    R  \ & Statistics, frequentist inference, statistical learning \\
+    MATLAB  \ & Numerical methods for mathematics and physics, signal processing, linear  \vspace{-0.3em} \\
+            & systems theory, optimization (IPM). \\
+    AMPL \ & LP, IP and MILP problems, stochastic programming. \\
+    Stan \ & Bayesian analysis. \\
+    Scala \ & FOOP, Spark RDDs. \\
+    SAS \ & Statistical data analysis. \\
+    Fortran \ & MD and MC simulations, VMD visualization. \\
+    C \& C++ \ & Analog and digital circuit control. \\
+    \end{tabular}
+\end{rSection}
+   
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other projects}
+% {\bf Erasmus ULISSES Project Ideathon} -- UL (Lisbon) \hfill \vspace{0.5em} {\em Jul. 2023} 
+% \\ Three-week intensive ideathon aimed at addressing an ocean sustainability
+% challenge. The project required a previous semester e-learning
+% phase and a thorough investigation of the state-of-the art in marine
+% sciences. Ideathon involved satellite data collection, solution design, viability assessment and product showcasing processes. \\
+% % (Copernicus, IOOS, EMODnet...)
+
+% {\bf Modelling and Design of a Paul Ion Trap} -- Computational Electromagnetism \hfill \vspace{0.5em} {\em 2021} 
+% \\ Numerical simulation of the distribution of charges and the potential generated by a quadrupole electrode
+% configuration using the method of moments, resulting in confined ion trajectories for harmonic potentials of varying frequencies.
+% Starting with simpler models in 2D and 3D, the project provides optimal design parameters needed for
+% confinement depending on the number and nature of the ions.\\
+
+% {\bf Calcium-mediated regulation of astrocytes response} -- Computational biophysics \hfill \vspace{0.5em} {\em 2021} 
+% \\ Analysis of the $Ca^{2+}$ concentration in brain astrocytes under different inositol triphosphate (IP3)
+% signaling dynamics. Hodgkin-Huxley model was used to show spike-stimulated calcium oscillations due to
+% the production of IP3 reaching threshold concentrations, and the continued influx of ions when neuron-coupled dynamics
+% are considered, a malfunction that has been linked to the appearance of several mental diseases.
+% \\
+
+{\bf Erasmus ULISSES Ideathon} -- UL (Lisbon) \hfill  {\em Jul. 2023} \\
+Three-week intensive ideathon aimed at addressing an ocean sustainability challenge.
+
+{\bf Lasso and Bayes -- A demostration using real estate market data} \hfill {\em 2023} 
+\\ Bayesian analysis. \\
+
+{\bf Modelling and design of a Paul Ion Trap} \hfill {\em 2021} 
+\\ Computational electromagnetism, finite element method, EM momentum method.\\
+
+{\bf Calcium-mediated regulation of astrocytes response in the brain} \hfill {\em 2021} 
+\\ Computational biophysics, dynamical systems modelling. \\
+
+{\bf Design and implementation of a sound recorder, processor and player in the electronics laboratory.
+TD-PSOLA and Phase Vocoder algorithms in a STM32 
+% NUCLEO-F303RE
+ microprocessor.} \hfill {\em 2021} 
+\\ Electronics, signal processing, analog and digital circuits, PWM conversion. \\
+
+{\bf Quantum Key Distribution in free-space-link communication systems. BB84 protocol implementation for earth-satellite communication.} \hfill {\em 2018} 
+\\ Quantum physics, cryptography, free-space communication. \\
+\end{rSection}
+
+\end{document}
