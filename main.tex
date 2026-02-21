@@ -23,6 +23,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{V\'ictor Jim\'enez Rodr\'iguez} % Your name
@@ -34,10 +35,10 @@
 \setlength{\baselineskip}{-0.2em}
 
 \begin{rSection}{Summary}
-    Machine learning researcher with a background in physics and statistics, and a proven track record in 
+    Machine learning research engineer with a background in physics and statistics, and a proven track record in 
     both academic and industrial environments. Interested in the assessment and understanding of robustness
     in machine learning systems, with experience in the development and deployment of agentic retrieval-augmented generation (A-RAG)
-    pipelines in high-stakes applications.
+    pipelines in high-risk domains.
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -47,34 +48,20 @@
 
 \begin{rSection}{Experience}
 
-    {\bf Uthereal (ETH AI Center Startup)} -- Zurich
-    \\ \textit{AI Scientist} \hfill {\em Since Jan. 2025} \\
+    {\bf Uthereal } -- Zurich
+    \\ \textit{Founding Research Engineer} \hfill {\em Since Jan. 2024} \\
 
-    Coordination and contribution to multiple R\&D projects involving the integration of A-RAG pipelines in high-risk domains (medical, legal, technical...).
-    Collaboration with academic partners for joint research initiatives and grant applications.
+    \begin{itemize}
+        \item Designed and deployed an end-to-end agentic RAG pipeline for expert-level technical documents in high-risk domains (legal and medical).
+        \item Built an experimental evaluation framework to assess model robustness, knowledge certifiability, agentic workflow reliability, and deployment readiness of the system.
+        \item Collaborated with academic partners on joint research initiatives and grant proposals related to model robustness and document intelligence.
+    \end{itemize}    
 
-    \textit{ML Engineer} \hfill {\em Jan. 2024 -- Dec. 2025}
-    
-    Designed and implemented an end-to-end agentic RAG system with advanced document understanding 
-    and explainability features, alongside a comprehensive experimental framework for systematic evaluation 
-    and deployment.
-
-    % \begin{itemize}
-        % \item Developed a full-scale agentic information retrieval system (A-RAG), integrating OCR, 
-        % document feature engineering, keyword modeling, knowledge graph generation, hybrid embedding search,
-        % chain-of-thought reasoning, and explainability. \\
-        % % \item Contributed to an industrial-academic partnership Innosuisse grant application, focusing on 
-        % % the integration of A-RAG in the medical domain. The grant was awarded CHF 980,000.
-        % % \item Designed and co-supervised thesis and semester projects for ETH master's students, including 
-        % % research initiatives linked to the Innosuisse grant.\
-        % \item Built an end-to-end ML experimental framework for A-RAG pipeline evaluation and benchmarking. 
-        % Integrated Pydantic framework with configuration-based instantiation, AWS deployment, 
-        % and W\&B logging for streamlined experimentation and reproducibility. \\
-    % \end{itemize}
-
-    {\bf Institute for Machine Learning (ETH)} -- Zurich \hfill {\em Apr. 2025 -- Oct. 2025} 
-    \\ Statistical Machine Learning -- Prof. Dr. Fanny Yang \\
+    {\bf Institute for Machine Learning (ETH)} -- Zurich \hfill {\em Since Oct. 2025} 
+    \\ Medical Data Science -- Prof. Dr. Julia Vogt \\
     \\ \textit{Scientific Assistant} \\
+
+    Led and contributed to multiple R\&D projects integrating A-RAG pipelines in the medical domain, working across research and engineering stakeholders.
 
     {\bf Institute for Machine Learning (ETH)} -- Zurich \hfill {\em Apr. 2025 -- Oct. 2025} 
     \\ Statistical Machine Learning -- Prof. Dr. Fanny Yang \\
@@ -87,15 +74,15 @@
     \\ Information Science and Engineering -- Prof. Dr. Joachim M. Buhmann \\
     \\ \textit{Research Intern} \\
 
-    Master's thesis with honors: \textit{Improved robustness of deep learning models through posterior agreement based
-    model selection.} Manuscript derived from the thesis has been submitted for publication.
+    Master's \href{https://github.com/viictorjimenezzz/master-thesis}{thesis} with honors: \textit{Improved robustness of deep learning models through posterior agreement based
+    model selection.} Manuscript derived from the thesis was \href{https://arxiv.org/abs/2503.16271}{published} in TMLR (02/2026).
     
     {\bf Department of Physics (TUM)} -- Munich \hfill {\em Feb. 2022 -- Oct. 2022} 
     \\ Physics of Energy Conversion and Storage -- Prof. Dr. Aliaksandr Bandarenka \\
     \\ \textit{Research Trainee} \\
 
-    Bachelor's thesis with honors: \textit{EIS characterization of lithiated TiO\textsubscript{2}-coated LICGC electrolytes for 
-        the stabilization of the SEI in all-solid-state lithium batteries.} Contributed to published work: \textit{Bandarenka et al., ChemSusChem 2024, e202401026, DOI: 10.1002/cssc.202401026.}
+    Bachelor's \href{https://upcommons.upc.edu/entities/publication/3b12a63f-7606-46e2-9952-084135730196}{thesis} with honors: \textit{EIS characterization of lithiated TiO\textsubscript{2}-coated LICGC electrolytes for 
+        the stabilization of the SEI in all-solid-state lithium batteries.} Contributed to \href{https://pmc.ncbi.nlm.nih.gov/articles/PMC11587694/}{published} work.
     
 \end{rSection}
 
